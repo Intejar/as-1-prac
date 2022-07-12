@@ -1,0 +1,192 @@
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav li{
+    padding: 0 5px 0 10px;
+    padding-top: 2%;
+    color: white;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav li:hover{
+    font-size: 20px;
+}
+.nav a:hover{
+    color:coral
+}
+.head{
+    text-align: center;
+    color: white;
+}
+.head h1{
+    font-size: 50px;
+}
+.head p{
+    margin:0 30%;
+    margin-bottom: 3%;
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 5px 10px;
+    border-radius: 5px;  
+}
+.head a:hover{
+    box-shadow: 2px 2px 2px 2px rgb(250, 171, 142);
+    font-size: 20px;
+}
+header{
+    background-image: url(picture/donation9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+.title{
+    text-align: center;
+    margin-top: 5%;
+}
+.title h1{
+    font-size: 30px;
+}
+.title p{
+    margin:0 25% 3% 25% ;
+}
+.money{
+    display: flex;
+    margin: 0 28%;
+    margin-bottom: 3%;
+}
+.taka{
+    padding: 5px 5%;
+    background-color: rgb(247, 238, 238);
+    margin-left: 10px;
+}
+.taka:hover{
+    border: 1px solid coral;
+    background-color: rgb(247, 198, 181);
+    color: coral;
+}
+input{
+    border: None;
+}
+hr{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.online img{
+    height: 200px;
+    width: 200px;
+}
+.online{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#resize{
+    height: 165px;
+    width: 150px;
+}
+.plan img{
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+}
+#food{
+    background-color: rgb(59, 184, 184);
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+#shelter{
+    background-color: lightsalmon;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+
+}
+#edu{
+    background-color: lightsteelblue;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+
+}
+#food:hover{
+    color: white;
+    font-size: larger;
+    border: 2px solid rgb(6, 231, 231) ;
+}
+#shelter:hover{
+    color: white;
+    font-size: larger;
+    border: 2px solid salmon ;
+
+}
+#edu:hover{
+    color: white;
+    font-size: larger;
+    border: 2px solid steelblue ;
+}
+form{
+    display: flex;
+    padding: 10% 30%;
+}
+.mail{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(253, 187, 162);
+}
+#email input{
+    background-color: lightgrey;
+    padding: 5px 0;
+}
+#subscribe a{
+    text-decoration: none;
+    background-color: coral;
+    padding: 4px 5px;
+    color: white;
+}
+#subscribe{
+    margin-top: 4px;
+    margin-left: 2px;
+}
+form:hover{
+    border: 2px solid coral;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+#email > input:hover{
+    font-size: 20px;
+}
+#subscribe a:hover{
+    font-size: larger;
+    box-shadow: 3px 3px 3px 3px white;
+
+}
+.learn-more a{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.learn-more a:hover{
+    font-size: larger;
+    box-shadow: 3px 3px 3px 3px white;
+}
+footer{
+    text-align: center;
+    margin-top: 10%;
+    background-image: url(picture/donation9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 0;
+    color: white;
+}
+footer h1{
+    font-size: 40px;
+    color: rgb(247, 182, 159);
+}
+footer p{
+    font-style: italic;
+    font-size: 20px;
+}
